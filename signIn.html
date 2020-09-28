@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/signIn.css" />
+    <link rel="stylesheet" href="./css/media-queries.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Joze Car Rental</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">logo</a>
+      <a href="signIn.html">sign in</a>
+      <a href="signUp.html">sign up</a>
+      <a href="payment.html">payment</a>
+      <a href="booking.html">booking</a>
+      <a href="dashboard.html">dashboard</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!-- 59dede
+    b1b1b1 -->
+    <!-- NAVBAR -->
+<!-- FORM  -->
+<div class="form">
+    <h1>Login</h1>
+
+    <form action="#">
     
-</body>
+    <label >Email</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+   
+      <label for="lname">Password</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Province</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+      
+      <div class="password">
+        <a href="#">Forgot Password / Reset Password</a> 
+      </div>
+      
+      <div class="submits">
+        <input type="submit" value="Submit">
+        <p>Not a member? Register now and <br> get a discount on your first booking!</p>
+        <input type="submit" value="Submit">
+      </div>
+      
+    </form>
+  </div>
+<!-- FORM  -->
+
+    <!-- FOOTER  -->
+<div class="footer">
+
+</div>
+    <!-- FOOTER  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  <script src="./js/main.js"></script>  
+  </body>
 </html>
