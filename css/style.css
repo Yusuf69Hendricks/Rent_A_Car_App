@@ -2,20 +2,48 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
+  background-color: #ddd;
 }
 /* NAVBAR  */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
 
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
 /* NAVBAR  */
 /* HERO  */
 .column {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px; 
+  height: 400px;
+  background-color: red;
 }
 .row:after {
   content: "";
@@ -23,27 +51,53 @@ body{
   clear: both;
 }
 
-.hero svg{
+.hero svg {
   width: 100%;
   height: auto;
   margin: auto;
   padding: 0;
+  padding-right: 50px;
 }
 
 #right-wheel,
-#left-wheel{
-    animation: wheel 2s infinite linear;
-    transform-origin: center;
-    transform-box: fill-box;
+#left-wheel {
+  animation: wheel 2s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
 }
 
 @keyframes wheel {
-    from {
-        transform: rotateZ(360deg);
-    }
-    to {
-        transform: rotateZ(0deg);
-    }
+  from {
+    transform: rotateZ(360deg);
+  }
+  to {
+    transform: rotateZ(0deg);
+  }
 }
 
 /* HERO  */
+
+/* CARS  */
+.columns {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+/* CARS  */
+
+/* SUBSCRIBE */
+.sub{
+  display: flex;
+  height: 200px;
+  width: 100%;
+  background-color: lightblue;
+}
+/* SUBSCRIBE  */
+/* FOOTER  */
+.footer{
+  width: 100%;
+  height: 300px;
+  background-color: lavenderblush;
+}
+/* FOOTER  */
