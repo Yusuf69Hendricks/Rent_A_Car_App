@@ -13,6 +13,11 @@ body {
   /* font-family: 'Montserrat', sans-serif; */
   font-family: 'Roboto', sans-serif;
 }
+
+hr{
+  border: 1px solid #8860d0;
+  width: 100px;
+}
 /* NAVBAR  */
 .topnav {
   overflow: hidden;
@@ -61,6 +66,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: lighter;
+  color:rgb(133, 133, 133);
+}
+
+.covid a{
+  text-decoration: none;
+  color: #8860d0;
 }
 
 .covid p {
@@ -78,9 +90,13 @@ body {
   padding-top: 150px;
 }
 
-.column h1{
+.hero h1{
   font-size: 55px;
   font-weight: lighter;
+}
+
+.hero p{
+  font-size: 20px;
 }
 .row:after {
   content: "";
@@ -123,15 +139,36 @@ body {
   float: left;
   width: 33.33%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px; 
   text-align: center;
-  background-color: #ddd;
 }
 
 .columns img{
   width: 100px;
   padding-top: 50px;
 }
+
+.columns a{
+ text-decoration: none;
+ color: black;
+}
+
+#cars{
+  transition: transform .2s;
+}
+
+#cars:hover{
+  transform: scale(1.2);
+}
+
+#available {
+  background-color: #ddd;
+}
+#available h2{
+  padding-top: 50px;
+  font-weight: lighter;
+}
+
 /* CARS  */
 
 /* SUBSCRIBE */
@@ -141,6 +178,7 @@ body {
   height: 200px;
   width: 100%;
   background-color:#5AB9EA;
+  color: black;
 }
 
 
