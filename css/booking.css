@@ -90,7 +90,7 @@ body {
 }
 
 #check {
-  color: green;
+  color: #8860d0;
 }
 
 .check p {
@@ -108,7 +108,7 @@ body {
   color: inherit;
 }
 .button {
-  background-color: #4caf50; /* Green */
+  background-color: #8860d0;
   border: none;
   color: white;
   padding: 15px 32px;
