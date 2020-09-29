@@ -88,6 +88,10 @@ body {
   clear: both;
 }
 
+.row {
+  text-align: center;
+}
+
 .hero svg {
   width: 100%;
   height: auto;
@@ -120,15 +124,53 @@ body {
   width: 33.33%;
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
+  text-align: center;
+  background-color: #ddd;
+}
+
+.columns img{
+  width: 100px;
+  padding-top: 50px;
 }
 /* CARS  */
 
 /* SUBSCRIBE */
 .sub{
-  display: flex;
+  padding-top: 30px;
+  text-align: center;
   height: 200px;
   width: 100%;
-  background-color: lightblue;
+  background-color:#5AB9EA;
+}
+
+
+input[type=text] {
+  width: 25%;
+  height: 50px;
+  padding: 12px 20px;
+  border: none;
+  box-sizing: border-box;
+  text-align: left;
+  margin-right: 30px;
+}
+
+.button {
+  background-color: #8860d0;
+  height: 50px;
+  width: 100px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none;
+}
+
+
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
 }
 /* SUBSCRIBE  */
 /* FOOTER  */
