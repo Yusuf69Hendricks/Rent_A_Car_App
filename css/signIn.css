@@ -103,7 +103,9 @@
     background-color: #84ceeb;
     color: gray;
   }
-
+  input:focus, textarea:focus, select:focus{
+    outline: none;
+}
   .login{
     background-color: #5680E9;
   }

@@ -28,5 +28,15 @@
       width: 100%;
     }
   }
+
+  /* BOOKING  */
+  @media screen and (max-width: 429px) {
+    .car {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  /* BOOKING  */
   
   /* MEDIA QUERIES  */

@@ -1,11 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/booking.css" />
+    <link rel="stylesheet" href="./css/media-queries.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Joze Car Rental</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active"
+        ><img src="./img/logo.png" alt=""
+      /></a>
+      <a href="signIn.html">Sign In</a>
+      <a href="signUp.html">sign up</a>
+      <a href="payment.html">payment</a>
+      <a href="booking.html">booking</a>
+      <a href="dashboard.html">dashboard</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fas fa-hamburger"></i>
+      </a>
+    </div>
+    <div class="covid"></div>
+    <!-- 59dede
+    b1b1b1 -->
+    <!-- NAVBAR -->
+
+    <!-- LISTING  -->
+    <div class="row">
+  <a href="payment.html">
+      <div class="car">
+        <div class="card">
+          <div class="row">
+            <div class="column">
+              <img
+                src="http://pngimg.com/uploads/alfa_romeo/alfa_romeo_PNG75.png"
+                alt=""
+              />
+            </div>
+            <div class="column">
+              <h3>Mini(Manual)</h3>
+              <p>Mini Copper 911 or similar</p>
+              <p><i class="fa fa-user" aria-hidden="true"></i> 4</p>
+              <p><i class="fa fa-suitcase" aria-hidden="true"></i> 3</p>
+              <p><i class="fa fa-plane" aria-hidden="true"></i> In Terminal</p>
+              <div class="check">
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i> Free
+                  Cancellation
+                </p>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i> No
+                  credit-card required to reserve
+                </p>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i>
+                  Unlimted miles
+                </p>
+              </div>
+
+              <!-- <i class="fa fa-sign-in" aria-hidden="true"></i>
+               <i class="fa fa-sign-out" aria-hidden="true"></i> -->
+            </div>
+          </div>
+          <div class="price">
+            <h2>R200 <span>/day</span></h2>
+            <span>R360 total</span>
+            <p>incl taxes & fees</p>
+            <button class="button button4">20px</button>
+          </div>
+        </div>
+      </div>
+    </a>
+        <div class="car">
+        <div class="card">
+          <div class="row">
+            <div class="column">
+              <img
+                src="http://pngimg.com/uploads/alfa_romeo/alfa_romeo_PNG75.png"
+                alt=""
+              />
+            </div>
+            <div class="column">
+              <h3>Mini(Manual)</h3>
+              <p>Mini Copper 911 or similar</p>
+              <p><i class="fa fa-user" aria-hidden="true"></i> 4</p>
+              <p><i class="fa fa-suitcase" aria-hidden="true"></i> 3</p>
+              <p><i class="fa fa-plane" aria-hidden="true"></i> In Terminal</p>
+              <div class="check">
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i> Free
+                  Cancellation
+                </p>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i> No
+                  credit-card required to reserve
+                </p>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i>
+                  Unlimted miles
+                </p>
+              </div>
+
+              <!-- <i class="fa fa-sign-in" aria-hidden="true"></i>
+               <i class="fa fa-sign-out" aria-hidden="true"></i> -->
+            </div>
+          </div>
+          <div class="price">
+            <h2>R200 <span>/day</span></h2>
+            <span>R360 total</span>
+            <p>incl taxes & fees</p>
+            <button class="button button4">20px</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="car">
+        <div class="card">
+          <div class="row">
+            <div class="column">
+              <img
+                src="http://pngimg.com/uploads/alfa_romeo/alfa_romeo_PNG75.png"
+                alt=""
+              />
+            </div>
+            <div class="column">
+              <h3>Mini(Manual)</h3>
+              <p>Mini Copper 911 or similar</p>
+              <p><i class="fa fa-user" aria-hidden="true"></i> 4</p>
+              <p><i class="fa fa-suitcase" aria-hidden="true"></i> 3</p>
+              <p><i class="fa fa-plane" aria-hidden="true"></i> In Terminal</p>
+              <div class="check">
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i> Free
+                  Cancellation
+                </p>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i> No
+                  credit-card required to reserve
+                </p>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i>
+                  Unlimted miles
+                </p>
+              </div>
+
+              <!-- <i class="fa fa-sign-in" aria-hidden="true"></i>
+               <i class="fa fa-sign-out" aria-hidden="true"></i> -->
+            </div>
+          </div>
+          <div class="price">
+            <h2>R200 <span>/day</span></h2>
+            <span>R360 total</span>
+            <p>incl taxes & fees</p>
+            <button class="button button4">20px</button>
+          </div>
+        </div>
+      </div>
+      <div class="car">
+        <div class="card">
+          <div class="row">
+            <div class="column">
+              <img
+                src="http://pngimg.com/uploads/alfa_romeo/alfa_romeo_PNG75.png"
+                alt=""
+              />
+            </div>
+            <div class="column">
+              <h3>Mini(Manual)</h3>
+              <p>Mini Copper 911 or similar</p>
+              <p><i class="fa fa-user" aria-hidden="true"></i> 4</p>
+              <p><i class="fa fa-suitcase" aria-hidden="true"></i> 3</p>
+              <p><i class="fa fa-plane" aria-hidden="true"></i> In Terminal</p>
+              <div class="check">
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i> Free
+                  Cancellation
+                </p>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i> No
+                  credit-card required to reserve
+                </p>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i>
+                  Unlimted miles
+                </p>
+              </div>
+
+              <!-- <i class="fa fa-sign-in" aria-hidden="true"></i>
+               <i class="fa fa-sign-out" aria-hidden="true"></i> -->
+            </div>
+          </div>
+          <div class="price">
+            <h2>R200 <span>/day</span></h2>
+            <span>R360 total</span>
+            <p>incl taxes & fees</p>
+            <button class="button button4">20px</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="car">
+        <div class="card">
+          <div class="row">
+            <div class="column">
+              <img
+                src="http://pngimg.com/uploads/alfa_romeo/alfa_romeo_PNG75.png"
+                alt=""
+              />
+            </div>
+            <div class="column">
+              <h3>Mini(Manual)</h3>
+              <p>Mini Copper 911 or similar</p>
+              <p><i class="fa fa-user" aria-hidden="true"></i> 4</p>
+              <p><i class="fa fa-suitcase" aria-hidden="true"></i> 3</p>
+              <p><i class="fa fa-plane" aria-hidden="true"></i> In Terminal</p>
+              <div class="check">
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i> Free
+                  Cancellation
+                </p>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i> No
+                  credit-card required to reserve
+                </p>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i>
+                  Unlimted miles
+                </p>
+              </div>
+
+              <!-- <i class="fa fa-sign-in" aria-hidden="true"></i>
+               <i class="fa fa-sign-out" aria-hidden="true"></i> -->
+            </div>
+          </div>
+          <div class="price">
+            <h2>R200 <span>/day</span></h2>
+            <span>R360 total</span>
+            <p>incl taxes & fees</p>
+            <button class="button button4">20px</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="car">
+        <div class="card">
+          <div class="row">
+            <div class="column">
+              <img
+                src="http://pngimg.com/uploads/alfa_romeo/alfa_romeo_PNG75.png"
+                alt=""
+              />
+            </div>
+            <div class="column">
+              <h3>Mini(Manual)</h3>
+              <p>Mini Copper 911 or similar</p>
+              <p><i class="fa fa-user" aria-hidden="true"></i> 4</p>
+              <p><i class="fa fa-suitcase" aria-hidden="true"></i> 3</p>
+              <p><i class="fa fa-plane" aria-hidden="true"></i> In Terminal</p>
+              <div class="check">
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i> Free
+                  Cancellation
+                </p>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i> No
+                  credit-card required to reserve
+                </p>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i>
+                  Unlimted miles
+                </p>
+              </div>
+
+              <!-- <i class="fa fa-sign-in" aria-hidden="true"></i>
+               <i class="fa fa-sign-out" aria-hidden="true"></i> -->
+            </div>
+          </div>
+          <div class="price">
+            <h2>R200 <span>/day</span></h2>
+            <span>R360 total</span>
+            <p>incl taxes & fees</p>
+            <button class="button button4">20px</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="car">
+        <div class="card">
+          <div class="row">
+            <div class="column">
+              <img
+                src="http://pngimg.com/uploads/alfa_romeo/alfa_romeo_PNG75.png"
+                alt=""
+              />
+            </div>
+            <div class="column">
+              <h3>Mini(Manual)</h3>
+              <p>Mini Copper 911 or similar</p>
+              <p><i class="fa fa-user" aria-hidden="true"></i> 4</p>
+              <p><i class="fa fa-suitcase" aria-hidden="true"></i> 3</p>
+              <p><i class="fa fa-plane" aria-hidden="true"></i> In Terminal</p>
+              <div class="check">
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i> Free
+                  Cancellation
+                </p>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i> No
+                  credit-card required to reserve
+                </p>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i>
+                  Unlimted miles
+                </p>
+              </div>
+
+              <!-- <i class="fa fa-sign-in" aria-hidden="true"></i>
+               <i class="fa fa-sign-out" aria-hidden="true"></i> -->
+            </div>
+          </div>
+          <div class="price">
+            <h2>R200 <span>/day</span></h2>
+            <span>R360 total</span>
+            <p>incl taxes & fees</p>
+            <button class="button button4">20px</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="car">
+        <div class="card">
+          <div class="row">
+            <div class="column">
+              <img
+                src="http://pngimg.com/uploads/alfa_romeo/alfa_romeo_PNG75.png"
+                alt=""
+              />
+            </div>
+            <div class="column">
+              <h3>Mini(Manual)</h3>
+              <p>Mini Copper 911 or similar</p>
+              <p><i class="fa fa-user" aria-hidden="true"></i> 4</p>
+              <p><i class="fa fa-suitcase" aria-hidden="true"></i> 3</p>
+              <p><i class="fa fa-plane" aria-hidden="true"></i> In Terminal</p>
+              <div class="check">
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i> Free
+                  Cancellation
+                </p>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i> No
+                  credit-card required to reserve
+                </p>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true" id="check"></i>
+                  Unlimted miles
+                </p>
+              </div>
+
+              <!-- <i class="fa fa-sign-in" aria-hidden="true"></i>
+               <i class="fa fa-sign-out" aria-hidden="true"></i> -->
+            </div>
+          </div>
+          <div class="price">
+            <h2>R200 <span>/day</span></h2>
+            <span>R360 total</span>
+            <p>incl taxes & fees</p>
+            <button class="button button4">20px</button>
+          </div>
+        </div>
+      </div>
+
+      
+    <!-- LISTING  -->
+
+    <!-- FOOTER  -->
+    <div class="footer">
+      <div class="socials">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      </div>
+      <p>
+        Copyright © 2020 Joze Car Rental Pty Ltd • Web Design By Yusuf Hendricks
+        • Terms and Conditions • Privacy Policy
+      </p>
+    </div>
+    <!-- FOOTER  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./js/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ac87d8aca0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
